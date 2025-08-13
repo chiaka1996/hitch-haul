@@ -225,15 +225,15 @@ export default function Home() {
         </section>
 
         {/* meet our team */}
-        <section className="text-[#fff] py-[50px] lg:py-[100px] px-[20px] bg-[linear-gradient(to_bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url('https://res.cloudinary.com/chiaka/image/upload/v1754751516/2151998729_a06trf.png')] bg-cover bg-center w-full">
+        <section className="text-[#fff] py-[50px] lg:py-[100px] px-[20px] bg-[linear-gradient(to_bottom,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('https://res.cloudinary.com/chiaka/image/upload/v1754751516/2151998729_a06trf.png')] bg-cover bg-center w-full">
           <h2 className="text-[30px] md:text-[52px] lg:text-[74px] leading-[40px] md:leading-[62px] lg:leading-[84px] font-[600] text-center">Meet Our Team</h2>
           <div className="flex flex-col md:flex-row justify-center mt-[50px] gap-[50px]">
-          <div className="relative w-full md:w-[50%] lg:w-[250px] h-[250px] bg-[url('https://res.cloudinary.com/chiaka/image/upload/v1754751516/2151998729_a06trf.png')] bg-cover bg-center rounded-[8px]">
+          <div className="relative w-full md:w-[50%] lg:w-[250px] min-h-[350px] bg-[url('/images/ceo.webp')] bg-center bg-contain bg-no-repeat rounded-[8px]">
             <div className="bg-[#fff] text-[#000083] text-[16px] font-[500] w-[80%] text-center absolute left-[10%] bottom-[5px] shadow-md shadow-[#000] py-[2px]">
             <span className="font-[600]">Adeshina Ogunleye</span><span className="block">MD/CEO</span>
             </div>
           </div>
-          <div className="relative w-full md:w-[50%] lg:w-[250px] h-[250px] bg-[url('https://res.cloudinary.com/chiaka/image/upload/v1754751516/2151998729_a06trf.png')] bg-cover bg-center rounded-[8px]">
+          <div className="relative w-full md:w-[50%] lg:w-[250px] min-h-[350px] bg-[url('/images/cto.png')] bg-center bg-contain bg-no-repeat rounded-[8px]">
             <div className="bg-[#fff] text-[#000083] text-[16px] font-[500] w-[80%] text-center absolute left-[10%] bottom-[5px] shadow-md shadow-[#000] py-[2px]">
               <span className="font-[600]">Olanrewaju Ogunleye</span><span className="block">ED/CTO</span>
             </div>

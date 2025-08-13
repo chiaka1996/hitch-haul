@@ -37,13 +37,14 @@ const Navigation = () => {
     return (
         <nav className={`z-[500] bg-[#000] w-full fixed top-0 left-0 transition-transform duration-300 ${ showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
             <div className="max-w-full md:max-w-[1300px] px-[10px] md:px-[20px] mx-auto h-[70px] md:h-[90px] flex items-center justify-between">
-                    <Image
-                        src="/vercel.svg"
-                        width="50"
-                        height={50}
-                        alt="hitch and haul logo"
-                    />
-
+                    <div className='relative w-[50px] lg:w-[85px] h-[50px] lg:h-[80px]'>
+                      <Image
+                          src="/images/logo.png"
+                          fill
+                          alt="hitch and haul logo"
+                          className='bg-center'
+                      />
+                    </div>
                     <div className="flex lg:hidden">
                 <RxHamburgerMenu
                     onClick={() => setOpenMenu((prev) => !prev)}
