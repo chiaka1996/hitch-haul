@@ -18,7 +18,7 @@ export default function Home() {
         <h2 className="text-[30px] lg:text-[105px] leading-[42px] lg:leading-[120px] font-[500]">Logistic</h2>
 
         <p className="max-w-[90%] md:max-w-[500px]  text-base md:text-lg mt-[5px] font-[600] mb-[10px] text-[#D1D5DB] ">
-          We don’t just ship, we deliver confidence. We are your trusted partner for fast, safe, and seamless logistics across the world.
+          We don&apost just ship, we deliver confidence. We are your trusted partner for fast, safe, and seamless logistics across the world.
         </p>
         <Link href="#contact">
         <button className="bg-[#004AAD] rounded-[8px] cursor-pointer hover:bg-[#4F86E8] w-[150px] h-[40px] border border-[#004AAd] outline-none">Get in touch</button>
@@ -279,7 +279,7 @@ export default function Home() {
             <h2 className="text-[30px] md:text-[52px] lg:text-[74px] leading-[40px] md:leading-[62px] lg:leading-[84px] font-[600]">Reach Out To Us!</h2>
             <div className="flex flex-col gap-y-[30px]">
               <p>At Hitch & Haul Logistics, we are dedicated to providing exceptional service tailored to your transportation needs. 
-                Whether you have questions, feedback, or require assistance, we’re here to help! Please feel free to reach out to us through the following channels:
+                Whether you have questions, feedback, or require assistance, we&aposre here to help! Please feel free to reach out to us through the following channels:
               </p>
 
               <p>

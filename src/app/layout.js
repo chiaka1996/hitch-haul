@@ -9,11 +9,11 @@ const publicSans = Public_Sans({
   subsets: ["latin"],
 });
 
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  variable: "--font-poppins", // we will hook this into Tailwind
-});
+// const poppins = Poppins({
+//   subsets: ["latin"],
+//   weight: ["400", "500", "700"],
+//   variable: "--font-poppins", // we will hook this into Tailwind
+// });
 
 export const metadata = {
   title: "Hitch and Haul Logistics service",
