@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body
-        className={`${publicSans.variable}  antialiased`}
+        className={`${publicSans.variable}  antialiased scroll-smooth`}
       >
         {children}
       </body>
