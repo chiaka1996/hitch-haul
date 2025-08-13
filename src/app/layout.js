@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import PropTypes from "prop-types";
 import { Public_Sans } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -12,7 +13,7 @@ const publicSans = Public_Sans({
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
-  variable: "--font-poppins", // we will hook this into Tailwind
+  variable: "--font-poppins", // Hook into Tailwind
 });
 
 export const metadata = {
@@ -22,7 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='scroll-smooth'>
+    <html lang="en" className="scroll-smooth">
       <head>
         {/* Material Symbols (Outlined) */}
         <link
@@ -39,3 +40,7 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+RootLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
