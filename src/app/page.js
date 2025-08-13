@@ -298,7 +298,7 @@ export default function Home() {
                 </div>
 
                  <div className="flex gap-[10px] items-center">
-                  <div className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#fff] shrink-0">
+                  <div className="w-[30px] h-[30px] flex items-center justify-center rounded-full bg-[#fff] shrink-0 ">
                   <span className="material-symbols-outlined text-[#002649]">location_on</span>
                   </div>
                   <span>22, Mohammed Shefiu St, Ago Palace Way, Okota, Lagos</span>
