@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState} from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
 import Link from "next/link";
