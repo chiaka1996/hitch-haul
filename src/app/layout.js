@@ -1,3 +1,4 @@
+import React from 'react';
 import { Public_Sans } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";

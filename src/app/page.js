@@ -1,10 +1,13 @@
+"use client"
+
+import React from 'react';
 import Image from "next/image";
 import Nav from "./components/Nav"
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="scroll-smooth">
       {/* banner */}
       <Nav />
       <section id="home" className="font-poppins bg-[linear-gradient(to_bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://res.cloudinary.com/chiaka/image/upload/v1754751516/2151998729_a06trf.png')] bg-cover bg-center w-full min-h-screen">

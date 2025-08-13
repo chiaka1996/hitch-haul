@@ -1,4 +1,5 @@
 'use client'
+import React from 'react';
 import Image from "next/image";
 import { useEffect, useState} from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
