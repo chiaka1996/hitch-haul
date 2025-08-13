@@ -9,11 +9,11 @@ const publicSans = Public_Sans({
   subsets: ["latin"],
 });
 
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   weight: ["400", "500", "700"],
-//   variable: "--font-poppins", // we will hook this into Tailwind
-// });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  variable: "--font-poppins", // we will hook this into Tailwind
+});
 
 export const metadata = {
   title: "Hitch and Haul Logistics service",
@@ -22,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
       <head>
         {/* Material Symbols (Outlined) */}
         <link
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body
-        className={`${publicSans.variable}  antialiased scroll-smooth`}
+        className={`${publicSans.variable} ${poppins.variable} antialiased`}
       >
         {children}
       </body>

@@ -109,7 +109,7 @@ export default function Home() {
                   Conduct a comprehensive market analysis to identify key growth areas and customer needs in the logistics sector.
                   Strengthen operational processes by implementing advanced logistics software for supply chain management, enhancing efficiency.
                   Expand fleet size by 20% to accommodate increasing demand, incorporating various transportation modes for better service offerings.
-                  Launch a brand awareness campaign focusing on Hitch & Hall's unique logistics solutions and commitment to customer satisfaction across Nigeria
+                  Launch a brand awareness campaign focusing on Hitch & Hall&apos;s unique logistics solutions and commitment to customer satisfaction across Nigeria
                 </div>
               </div>
 
