@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className="text-[50px] md:text-[80px] lg:text-[139px] font-[600] leading-[65px] md:leading-[92px] lg:leading-[170px] mt-[150px]">
           Hitch <span className="text-[#004AAD]">&</span> Haul
         </h1>
-        <h2 className="text-[30px] lg:text-[105px] leading-[42px] lg:leading-[120px] font-[500]">Logistic</h2>
+        <h2 className="text-[30px] lg:text-[105px] leading-[42px] lg:leading-[120px] font-[500]">Logistics</h2>
 
         <p className="max-w-[90%] md:max-w-[500px]  text-base md:text-lg mt-[5px] font-[600] mb-[10px] text-[#D1D5DB] ">
           We don&apos;t just ship, we deliver confidence. We are your trusted partner for fast, safe, and seamless logistics across the world.
@@ -109,14 +109,14 @@ export default function Home() {
                   Conduct a comprehensive market analysis to identify key growth areas and customer needs in the logistics sector.
                   Strengthen operational processes by implementing advanced logistics software for supply chain management, enhancing efficiency.
                   Expand fleet size by 20% to accommodate increasing demand, incorporating various transportation modes for better service offerings.
-                  Launch a brand awareness campaign focusing on Hitch & Hall&apos;s unique logistics solutions and commitment to customer satisfaction across Nigeria
+                  Launch a brand awareness campaign focusing on Hitch & Haul&apos;s unique logistics solutions and commitment to customer satisfaction across Nigeria
                 </div>
               </div>
 
               <div>
                 <h3 className="text-[30px] font-[600] md:text-center">2026</h3>
                 <div className="text-[15px]">
-                  To open regional distribution centers in strategic locations to improve service delivery speed and efficiency across Nigeria.
+                  To open regional distribution centres in strategic locations to improve service delivery speed and efficiency across Nigeria.
                   Form alliances with local businesses and manufacturers to provide integrated logistics solutions, fostering long-term partnerships.
                   To introduce specialized services, including cold chain logistics, last-mile delivery, and e-commerce solutions, catering to diverse industry needs.
                   To achieve a 25% increase in market share within the logistics sector through targeted marketing and strategic partnerships.
