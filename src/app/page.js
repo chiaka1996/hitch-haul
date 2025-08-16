@@ -240,7 +240,7 @@ export default function Home() {
           </div>
           <div className="relative w-full md:w-[50%] lg:w-[250px] min-h-[350px] bg-[url('/images/cfo.png')] bg-center bg-contain bg-no-repeat rounded-[8px]">
             <div className="bg-[#fff] text-[#000083] text-[16px] font-[500] w-[80%] text-center absolute left-[10%] bottom-[5px] shadow-md shadow-[#000] py-[2px]">
-              <span className="font-[600]">Bunmi Ogunleye</span><span className="block"> ED/CFO</span>
+              <span className="font-[600]">Oluwabunmi Ogunleye</span><span className="block"> ED/CFO</span>
             </div>
           </div>
           </div>
